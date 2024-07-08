@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workshop HTML</title>
     <link rel="icon" href="pngegg.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -17,18 +18,17 @@
     </header>
 
     <main>
-        <h1>Portfolio</h1>
-
+        
+        <h2>About</h2>
+        <h1>Ala Kamel</h1>
         <section id="About">
-            <h2>About</h2>
-
-            <img src="WhatsApp Image 2024-06-10 at 1.15.53 AM.jpeg" alt="Not Found">
-
 
             <p>Software engineer graduated from the ESPRIT engineering school (private higher school of 
                 engineering and technology), specializing in Data Science. My ambition is to put into practice the 
                 knowledge I have received so far, to forge my mind and personality within a dynamic and professional 
                 team, allowing me to work alongside new technologies.</p>
+
+                <img id="imgAla" src="WhatsApp Image 2024-06-10 at 1.15.53 AM.jpeg" alt="Not Found">
         </section>
 
         <section id="Work">
@@ -64,7 +64,8 @@
                     <source src="XiaoYing_Video_1492379838832.mp4">
                 </video>
                 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rtsNAzXktBw?si=WFzZfgcTXWdP8WSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <table>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rtsNAzXktBw?si=WFzZfgcTXWdP8WSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+                <table>
                     <tr>
                         <th>Intership</th>
                         <th>Company</th>
@@ -109,7 +110,7 @@
                 <br>
                 <br>
                 <label>Naissance</label>
-                <input type="date">
+                <input id="naiss" type="date">
                 <br>
                 <br>
                 <label>Photo</label>
@@ -123,25 +124,29 @@
                 <button>Envoyer</button>
             </form>
         </section>
-        <section>
+        <section id="cv">
             <h2>CV_alaeddine_Kamel</h2>
             <iframe src="CV_alaeddine_Kamel.pdf"></iframe>
         </section>
-        <a href="#top">top of the page</a>
 
     </main>
 
     <footer>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="not Found" width="50px">
-        <a href="https://www.instagram.com/ala_kamel/">Instagram</a>
-        <img src="https://cdn-icons-png.flaticon.com/256/124/124010.png" alt="not Found" width="50px">
+        <img class="footer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="not Found" width="50px">
+        <a class="aFooter" href="https://www.instagram.com/ala_kamel/">Instagram</a>
+        <img class="footer" src="https://cdn-icons-png.flaticon.com/256/124/124010.png" alt="not Found" width="50px">
 
-            <a href="https://www.facebook.com/ala.kamel.777">facebook</a>
-            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="not Found" width="50px">
+            <a class="aFooter" href="https://www.facebook.com/ala.kamel.777">facebook</a>
+            <img class="footer" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="not Found" width="50px">
 
-            <a href="https://www.linkedin.com/in/alaeddine-kamel-575477209/">linkedin</a>
-            <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt="not Found" width="50px">
-            <a href="https://github.com/alaaeddinekamel">github</a>
+            <a class="aFooter" href="https://www.linkedin.com/in/alaeddine-kamel-575477209/">linkedin</a>
+            <img class="footer" src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt="not Found" width="50px">
+            <a class="aFooter" href="https://github.com/alaaeddinekamel">github</a> 
+            <br>
+            <br>
+            <img src="https://cdn-icons-png.freepik.com/512/2569/2569410.png" alt="" width="50px">
+            <a id="top" href="#top">top of the page</a>
+
     </footer>
 </body>
 </html>

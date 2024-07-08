@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+a{
+    font-size: 26px;
+    text-decoration: none;
+    color: gray;
+    margin-left: 100px;
+    padding: 30px 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover{
+    color: orange;
+}
+
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic ;
+    font-size: 100px;
+    color: whitesmoke;
+    margin-left: 14pc;
+}
+
+#About{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -119px;
+
+}
+
+h2{
+    font-family: fantasy;
+    font-size: 38px;
+    color: deepskyblue;
+    text-decoration: underline;
+    margin-left: 11pc;
+}
+
+#imgAla{
+    border-radius: 515px;
+    border-color: black;
+    border-style: dashed solid;
+    width: 278px;
+    margin-right: 17pc;
+
+   
+}
+
+p{
+    margin-left: 187px;
+    margin-right: 194px;
+    font-size: 19px;
+    color: white;
+    text-align: justify;
+    font-family: cursive;
+}
+
+ul{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 4pc;
+    margin-right: 19pc;
+}
+
+video{
+    width: 322px;
+    border: blueviolet solid 8px;
+    border-style: double;
+    margin-left: 100px;
+
+}
+
+iframe{
+    width: 574px;
+    border: blueviolet solid 8px;
+    border-style: double;
+    height: 323px;
+    margin-left: 350px;
+}
+
+table, th, td{
+    border: solid deepskyblue ;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 900px;
+    margin-left: 17%;
+    margin-top: 64px;
+}
+
+
+
+th{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orange ;
+    font-weight: bolder;
+    text-align: justify;
+}
+tr{
+    text-align: justify;
+}
+
+.footer{
+    display: inline-block;
+}
+
+form{
+    margin-left: 40%;
+}
+input{
+    margin-left: 38px;
+}
+
+#naiss{
+    margin-left: 14px;
+}
+
+textarea{
+    margin-left: 19px;
+}
+
+button{
+    font-size: 22px;
+    color: burlywood;
+    background: black;
+    border: blue;
+    border-style: solid;
+    border-radius: 48px;
+    padding: 12px;
+    margin-left: 101px;
+}
+button:hover{
+    color: aqua;
+    background-color: chartreuse;
+    border: red;
+}
+
+.aFooter{
+    margin-left: -4px;
+    font-size: 19px;
+}
+
+#cv{
+    margin-bottom: 56px;
+
+}
+footer{
+    margin-left: 58px;
+}
+
+#top{
+    margin-left: -18px;
+
+}
